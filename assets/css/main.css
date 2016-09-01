@@ -8422,7 +8422,7 @@ nav > .container {
 }
 .carousel-indicators {
   position: fixed;
-  top: 80vh;
+  top: 75vh;
   left: 0;
   right: 0;
   z-index: 15;
@@ -8596,7 +8596,7 @@ footer[role="contentinfo"] {
     display: none;
   }
   h5.projects {
-    font-weight: bold;
+    font-weight: normal;
     margin: 0 0 0 0;
     text-align: center;
   }
@@ -8664,18 +8664,23 @@ footer[role="contentinfo"] {
   #form {
     display: none;
   }
-  p.contact {
+  h5.contact {
     margin: 0;
     text-align: center;
     font-size: 20px;
-  }
-  #contact-head {
-    display: none;
   }
   #about-head {
     display: none;
   }
   #projects-head {
+    display: none;
+  }
+  h5.projects {
+    font-weight: normal;
+    margin: 0 0 0 0;
+    text-align: center;
+  }
+  .projects-text {
     display: none;
   }
   .navbar-toggle {
@@ -8722,6 +8727,13 @@ footer[role="contentinfo"] {
   }
   #contact-head {
     display: none;
+  }
+  #contact-break {
+    display: none;
+  }
+  h5.projects {
+    font-weight: bold;
+    margin: 0 35vw 0 35vw;
   }
 }
 input::-webkit-input-placeholder,
@@ -8998,10 +9010,6 @@ textarea:hover {
 }
 h5.about {
   text-align: center;
-}
-h5.projects {
-  font-weight: bold;
-  margin: 0 35vw 0 35vw;
 }
 h5.projects sup {
   font-weight: normal;
